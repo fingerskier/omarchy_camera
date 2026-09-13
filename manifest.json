@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "fingerskier.camera",
+  "name": "Camera",
+  "version": "0.1.0",
+  "author": "fingerskier",
+  "license": "Apache-2.0",
+  "description": "Open the default attached camera from the Omarchy bar",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "plugin/BarWidget.qml"},
+  "barWidget": {
+    "displayName": "Camera",
+    "description": "Acquire the built-in or default camera; report when none is found",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
